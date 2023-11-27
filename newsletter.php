@@ -68,7 +68,7 @@ function ValidationPeriodEnds(){
 				"FACTORY_NUMBER" =>$FACTORY_NUMBER,
 				"NAME"  => $NAME,
 				"LAST_NAME"  => $LAST_NAME,
-				"EMAIL"  => 'uzer1874@rambler.ru',//$EMAIL,
+				"EMAIL"  => $EMAIL,
 			);
 			CEvent::Send("VALIDATION_PERIOD_ENDS", "s1", $arEventFields);
 		}
